@@ -1,0 +1,180 @@
+$primaryColor: #2e3445
+
+=boxy 
+  background-color: transparent
+  border-radius: 0px
+  border-width: 3px
+  color: white
+
+h1,h2,h3,p,a 
+  font-family: "myriad-pro"
+.navbar-inverse
+  background-color: rgba(255,255,255,1)
+  border-color: $primaryColor
+.navbar-brand
+  img 
+    width: 100px
+    height: auto
+.navbar-header
+  height: 71px
+.navbar-inverse
+  height: 80px
+.navbar-collapse
+  background-color: rgba(255,255,255,0.7)
+.navbar-right
+  padding-top: 15px
+  text-align: center
+
+.navbar-inverse .navbar-nav>li>a
+  color: #2a3445
+  font-size: 1.75rem
+  &:hover
+    background-color: $primaryColor
+.navbar-inverse .navbar-nav>li>a>i 
+  padding-right: 5px
+.navbar-inverse .navbar-toggle .icon-bar
+  background-color: $primaryColor
+  &:active
+    background-color: white
+.navbar-inverse .navbar-toggle
+  border-color: transparent
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover
+  background-color: transparent
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:active
+  background-color: transparent
+
+
+video
+  position: fixed
+  top: 50%
+  left: 50%
+  min-width: 100%
+  min-height: 100%
+  width: auto
+  height: auto
+  z-index: -100
+  transform: translateX(-50%) translateY(-50%)
+  -webkit-transform: translateX(-50%) translateY(-50%)
+  -moz-transform: translateX(-50%) translateY(-50%)
+  -o-transform: translateX(-50%) translateY(-50%)
+  background: url(../images/hero-bg.jpg) no-repeat
+  background-size: cover
+
+#hero
+  text-align: center
+  color: white
+  padding-top: 15%
+  // margin-bottom: -20%
+  background-color: rgba(30,37,49,0.8)
+  min-height: 500px
+  // overflow: hidden
+  h1 
+    font-weight: bold
+    font-size: 4rem
+  h3 
+    font-size: 4rem
+    font-weight: 300
+
+#quote 
+  padding: 3% 0
+  .form-inline .form-control
+    height: 40px
+    width: 250px
+    display: inline
+  .btn-default 
+    height: 40px
+    background-color: $primaryColor
+    color: white
+#features 
+  background-color: white
+  padding: 5% 0
+
+#services 
+  padding: 5% 0
+  color: white
+  background: url(../images/services-blu.jpg) fixed
+  background-size: cover
+  width: 100%
+  height: 100%
+
+  // background-color: rgba(30,37,49,0.8)
+  h2 
+    font-weight: bold
+    text-align: center
+  hr.pDivider 
+    height: 1px 
+    width: 50px
+    background-color: white
+    z-index -80
+  #service-left 
+    h4 
+      text-align: right
+    p 
+      text-align: right
+      font-weight: 300
+  #service-right 
+    h4 
+      text-align: left
+    p 
+      text-align: left
+      font-weight: 300
+#cta 
+  text-align: center
+  color: white
+  padding: 8% 0
+  background: url(../images/cta-bg2.jpg) center bottom no-repeat
+  background-size: cover
+  h3 
+    font-weight: 300
+  h1
+    font-weight: 700
+    padding-bottom: 3%
+  .box-btn
+    background-color: transparent
+    border-radius: 0px
+    border-width: 3px
+    color: white
+#why-us
+  padding: 5% 0
+  background-color: white
+  text-align: center
+  hr.pDivider
+    height: 2px 
+    width: 50px
+    background-color: #2d2d2d
+    margin-top: 0px
+    margin-bottom: 3%
+  h4
+    padding: 3% 0
+  .col-sm-4
+    padding-bottom: 3%
+#projects
+  background: url(../images/project-bg.jpg) center bottom no-repeat fixed
+  background-size: cover
+  padding: 5% 0
+  text-align: center
+  color: white
+  h1
+    font-weight: 700
+  .box-btn
+    +boxy
+#sponsors
+  background-color: #ebebeb
+  padding: 1% 0
+#footer-content
+  background-color: white
+  padding: 8% 0
+  .col-sm-4
+    padding-bottom: 2%
+  h4
+    font-weight: 700
+  ul 
+    list-style: none
+    padding: 0
+footer 
+  padding: 1% 0
+  color: white
+  background-color: #2d2d2d
+  text-align: center
+
+
